@@ -35,7 +35,7 @@ public class OSCSender : MonoBehaviour
         client.Send("/listener/up", u.x, u.y, u.z);
 
        Vector3 relPos = vrCamera.transform.InverseTransformPoint(audioSourceTransform.position);
-        client.Send("/source/rel", relPos.x, relPos.y, relPos.z);
+       client.Send("/source/rel", relPos.x, relPos.y, relPos.z);
     }
 
     void OnDestroy()
