@@ -23,19 +23,17 @@ public class OSCSender : MonoBehaviour
     {
         if (!audioSourceTransform || !vrCamera) return;
 
-        Vector3 s = audioSourceTransform.position;
-        client.Send("/source/pos", s.x, s.y, s.z);
+        Vector3 relPos = vrCamera.transform.InverseTransformPoint(audioSourceTransform.position);
+        client.Send("/source/rel", relPos.x, relPos.y, relPos.z);
 
-        Vector3 l = vrCamera.transform.position;
-        client.Send("/listener/pos", l.x, l.y, l.z);
+        float azimuth = Mathf.Atan2(relPos.x, relPos.z);
+        client.Send("/source/azimuth", azimuth);
 
-        Vector3 f = vrCamera.transform.forward;
-        Vector3 u = vrCamera.transform.up;
-        client.Send("/listener/forward", f.x, f.y, f.z);
-        client.Send("/listener/up", u.x, u.y, u.z);
+        float distance = relPos.magnitude;
+        client.Send("/source/distance", distance);
 
-       Vector3 relPos = vrCamera.transform.InverseTransformPoint(audioSourceTransform.position);
-       client.Send("/source/rel", relPos.x, relPos.y, relPos.z);
+        float elevation = Mathf.Atan2(relPos.y, distance);
+        client.Send("/source/elevation", elevation);
     }
 
     void OnDestroy()
