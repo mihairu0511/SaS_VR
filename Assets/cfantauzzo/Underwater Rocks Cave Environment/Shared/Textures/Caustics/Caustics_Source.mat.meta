@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3f1dbd16f079aff4089ebf5f3146a0f2
+timeCreated: 1484945463
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 81316
+  packageName: Underwater Rocks - Cave Environment
+  packageVersion: 1.3
+  assetPath: Assets/cfantauzzo/Underwater Rocks Cave Environment/Shared/Textures/Caustics/Caustics_Source.mat
+  uploadId: 438882

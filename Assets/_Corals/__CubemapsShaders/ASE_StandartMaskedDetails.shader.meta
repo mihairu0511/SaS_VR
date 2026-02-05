@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c4eb5a30ed536d743bf20ca20d5383bf
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 179881
+  packageName: Corals 2
+  packageVersion: 1.0
+  assetPath: Assets/_Corals/__CubemapsShaders/ASE_StandartMaskedDetails.shader
+  uploadId: 392957

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ccbdea634bcfa8b4c8c6a3522c1dd22d
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 179881
+  packageName: Corals 2
+  packageVersion: 1.0
+  assetPath: Assets/_Corals/__CubemapsShaders/ASE_Standart2SidedSimple.shader
+  uploadId: 392957

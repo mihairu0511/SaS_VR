@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 30106bfa8dcc1764ab1fc16f772cde8c
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 179881
+  packageName: Corals 2
+  packageVersion: 1.0
+  assetPath: Assets/_Corals/__CubemapsShaders/VertexColorTransp.shader
+  uploadId: 392957

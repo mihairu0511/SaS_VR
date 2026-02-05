@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 6c4994e2a1e7edc4c962badf1634890e
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 179881
+  packageName: Corals 2
+  packageVersion: 1.0
+  assetPath: Assets/_Corals/__CubemapsShaders/ASE_StandartVD.shader
+  uploadId: 392957

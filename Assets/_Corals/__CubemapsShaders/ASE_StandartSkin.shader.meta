@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 5f091799159828a4190943bb698cdb3e
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 179881
+  packageName: Corals 2
+  packageVersion: 1.0
+  assetPath: Assets/_Corals/__CubemapsShaders/ASE_StandartSkin.shader
+  uploadId: 392957
